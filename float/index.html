@@ -26,11 +26,21 @@
       width: 200px;
       float: left;
     }
+    /*
+    Moves the paragraph below the floated boxes but changes the height of the paragraph to the height of the parent container
+
     p:before{
       content:".";
       display: block;
       clear: both;
     }
+    */
+    section:after{
+      display: block;
+      content: " ";
+      clear: left;
+    }
+
     .box.a{
       background-color: lightslategray;
     }
@@ -50,15 +60,17 @@
     <h1>Practicing Floats</h1>
   </header>
   <main class="container">
-    <div class="box a">
-      Box 1
-    </div>
-    <div class="box b">
-      Box 2
-    </div>
-    <div class="box c">
-      Box 3
-    </div>
+    <section>
+      <div class="box a">
+        Box 1
+      </div>
+      <div class="box b">
+        Box 2
+      </div>
+      <div class="box c">
+        Box 3
+      </div>
+    </section>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque accusantium rerum nobis quia fugit cupiditate ratione obcaecati recusandae iste vel? Expedita commodi nobis praesentium in amet neque consequuntur ab modi?
       Autem, sequi. Commodi nemo obcaecati maiores fuga distinctio quia unde animi laboriosam sint dicta quaerat, iure pariatur quam possimus illum quisquam delectus libero ullam consequatur adipisci reprehenderit veniam. Labore, quod.
