@@ -1,6 +1,5 @@
 # Floats
-
- the order of the elements
+![image](https://user-images.githubusercontent.com/99628526/213896537-75d3f74b-acae-48a7-9fbc-79b0f9a9ea07.png)
 
 ### Using Clear Property
 **Clear** property specifies what should happen with the element next to a floating element.
@@ -16,7 +15,7 @@ inherit: inherits this propery from its parent
 
 #### Notes
 
-- If you float elements to the right, it inverts
+- If you float elements to the right, it inverts the order of the elements.
 
 #### Best Practice
 
