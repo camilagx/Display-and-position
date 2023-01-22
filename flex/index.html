@@ -26,7 +26,11 @@
     /* Make main the */
     .flex-container{
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
+      /* align-content works for multiple lines of content*/
+      align-content: center; 
+      /*align items is the version of justify content but on cross axis */
+      align-items: center;
       height: 500px;
     }
     .box{
@@ -37,24 +41,26 @@
     /* Box 1 */
     .box.a{
       background-color: lightblue;
-      order: 3;
     }
      /* Box 2 */
     .box.b{
       background-color: lightpink;
-      order: 1;
+      height: 150px;
     }
      /* Box 3 */
     .box.c{
       background-color: lightslategray;
-      order: 2;
     }
+    /* Box 4 */
     .box.d{
       background-color: wheat;
+      height: 120px;
     }
+    /* Box 5 */
     .box.e{
       background-color: lightsalmon;
     }
+    /* Box 6 */
     .box.f{
       background-color:darkgrey;
     }
