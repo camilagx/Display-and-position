@@ -4,56 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Practice Float</title>
-  <style>
-    *{
-      margin: 0;
-      padding: 0;
-    }
-
-    header, footer{
-      border: 2px solid black;
-      height: 150px;
-    }
-    .container{
-      background-color: lightpink;
-      height: 70%;
-    }
-    .box{
-      border:2px solid black;
-      height: 200px;
-      text-align: center;
-      width: 200px;
-      float: left;
-    }
-    /*
-    Moves the paragraph below the floated boxes but changes the height of the paragraph to the height of the parent container
-
-    p:before{
-      content:".";
-      display: block;
-      clear: both;
-    }
-    */
-    section:after{
-      display: block;
-      content: " ";
-      clear: left;
-    }
-
-    .box.a{
-      background-color: lightslategray;
-    }
-    .box.b{
-      background-color: lightblue;
-    }
-    .box.c{
-      background-color: lightseagreen;
-    }
-    p{
-      border:2px solid black;
-    }
-  </style>
 </head>
 <body>
   <header>
