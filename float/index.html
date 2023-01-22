@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Float</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer{
+      border: 2px solid black;
+      height: 150px;
+    }
+    .container{
+      background-color: lightpink;
+      height: 70%;
+    }
+    .box{
+      border:2px solid black;
+      height: 200px;
+      text-align: center;
+      width: 200px;
+      float: left;
+    }
+    p:before{
+      content:".";
+      display: block;
+      clear: both;
+    }
+    .box.a{
+      background-color: lightslategray;
+    }
+    .box.b{
+      background-color: lightblue;
+    }
+    .box.c{
+      background-color: lightseagreen;
+    }
+    p{
+      border:2px solid black;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Practicing Floats</h1>
+  </header>
+  <main class="container">
+    <div class="box a">
+      Box 1
+    </div>
+    <div class="box b">
+      Box 2
+    </div>
+    <div class="box c">
+      Box 3
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque accusantium rerum nobis quia fugit cupiditate ratione obcaecati recusandae iste vel? Expedita commodi nobis praesentium in amet neque consequuntur ab modi?
+      Autem, sequi. Commodi nemo obcaecati maiores fuga distinctio quia unde animi laboriosam sint dicta quaerat, iure pariatur quam possimus illum quisquam delectus libero ullam consequatur adipisci reprehenderit veniam. Labore, quod.
+      Recusandae ipsam magnam nisi cumque quo iure assumenda earum repudiandae totam deleniti minus voluptatibus numquam, reiciendis fuga consequuntur molestiae? Pariatur deserunt, quaerat et molestiae officiis quis. Amet, qui? Eligendi, ratione.
+    </p>
+  </main>
+  <footer>
+    <h2>Footer</h2>
+  </footer>
+</body>
+</html>
